@@ -93,7 +93,7 @@ export default function Chart() {
         item
         lg={7}
         md={12}
-        sx={{width:'100%',...shadowStyle }}
+        sx={{width:'100%',height:'100%',...shadowStyle }}
       >
         <div style={{ display: "flex", justifyContent: "space-between" }}>
           <div
@@ -128,7 +128,7 @@ export default function Chart() {
           </div>
         </div>
         <div className="chart-container">
-        <BarChart width={900} height={310} data={data}>
+        <BarChart width={900} height={260} data={data}>
           <XAxis dataKey="name" />
           <Bar dataKey="uv" fill="rgb(249, 215, 210)" barSize={50} />
         </BarChart>
@@ -144,8 +144,8 @@ export default function Chart() {
         <Typography sx={{ fontSize: "19px", fontWeight: "700",paddingTop:'20px' }}>Customers</Typography>
         <Typography   sx={{ fontSize: "14px", fontWeight: "700", color: "gray" }}>Customers that buy products</Typography>
         <div style={{display:'flex',justifyContent:'center'}}>
-        <div style={{ height:'300px',width:'300px',paddingTop:'30px'}}>
-              <Doughnut data={donutData} options={donutOptions} width={330} height={330}/>
+        <div style={{ height:'270px',width:'100%',paddingTop:'10px'}}>
+              <Doughnut data={donutData} options={donutOptions} width={390} height={300}/>
         </div>
         </div>
        
