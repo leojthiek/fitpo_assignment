@@ -144,8 +144,8 @@ export default function Chart() {
         <Typography sx={{ fontSize: "19px", fontWeight: "700",paddingTop:'20px' }}>Customers</Typography>
         <Typography   sx={{ fontSize: "14px", fontWeight: "700", color: "gray" }}>Customers that buy products</Typography>
         <div style={{display:'flex',justifyContent:'center'}}>
-        <div style={{ height:'270px',width:'100%',paddingTop:'10px'}}>
-              <Doughnut data={donutData} options={donutOptions} width={390} height={300}/>
+        <div style={{ height:'250px',width:'100%',paddingTop:'10px'}}>
+              <Doughnut data={donutData} options={donutOptions} width={400} height={400}/>
         </div>
         </div>
        
