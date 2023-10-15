@@ -76,7 +76,7 @@ export default function Chart() {
   };
 
   const donutOptions = {
-    maintainAspectRatio: false, 
+    maintainAspectRatio: false,
   };
   return (
     <Grid
@@ -144,8 +144,8 @@ export default function Chart() {
         <Typography sx={{ fontSize: "19px", fontWeight: "700",paddingTop:'20px' }}>Customers</Typography>
         <Typography   sx={{ fontSize: "14px", fontWeight: "700", color: "gray" }}>Customers that buy products</Typography>
         <div style={{display:'flex',justifyContent:'center'}}>
-        <div style={{ height:'300px',width:'350px',paddingTop:'20px'}}>
-              <Doughnut data={donutData} options={donutOptions}/>
+        <div style={{ height:'300px',width:'300px',paddingTop:'30px'}}>
+              <Doughnut data={donutData} options={donutOptions} width={330} height={330}/>
         </div>
         </div>
        
