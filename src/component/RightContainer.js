@@ -66,10 +66,10 @@ export default function RightContainer() {
           />
         </Search>
       </div>
-      <div style={{paddingTop:'50px'}}>
+      <div style={{paddingTop:'40px'}}>
         <CardComponent/>
       </div>
-      <div style={{paddingTop:'50px'}}>
+      <div style={{paddingTop:'40px'}}>
         <Chart/>
       </div>
       <div>
