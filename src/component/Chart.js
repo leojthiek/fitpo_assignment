@@ -128,7 +128,7 @@ export default function Chart() {
           </div>
         </div>
         <div className="chart-container">
-        <BarChart width={900} height={240} data={data}>
+        <BarChart width={850} height={240} data={data}>
           <XAxis dataKey="name" />
           <Bar dataKey="uv" fill="rgb(249, 215, 210)" barSize={30} />
         </BarChart>
