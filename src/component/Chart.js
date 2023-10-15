@@ -91,7 +91,7 @@ export default function Chart() {
     >
       <Grid
         item
-        lg={6}
+        lg={7}
         md={12}
         sx={{width:'100%',...shadowStyle }}
       >
@@ -128,9 +128,9 @@ export default function Chart() {
           </div>
         </div>
         <div className="chart-container">
-        <BarChart width={1000} height={310} data={data}>
+        <BarChart width={900} height={310} data={data}>
           <XAxis dataKey="name" />
-          <Bar dataKey="uv" fill="rgb(249, 215, 210)" barSize={60} />
+          <Bar dataKey="uv" fill="rgb(249, 215, 210)" barSize={50} />
         </BarChart>
       </div>
       </Grid>

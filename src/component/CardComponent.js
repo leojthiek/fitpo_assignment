@@ -10,13 +10,13 @@ import ShoppingBagOutlinedIcon from '@mui/icons-material/ShoppingBagOutlined';
 export default function CardComponent() {
   return (
     <div style={{display:'flex',gap:'70px',flexWrap:'wrap',justifyContent:'center'}}>
-      <Card sx={{ width: 280 }}>
-        <CardContent sx={{ display: "flex" }}>
+      <Card sx={{ width: 300 ,height:'170px'}}>
+        <CardContent sx={{ display: "flex"}}>
           <div
             style={{
               backgroundColor: "rgb(210,243,210)",
-              width: "150px",
-              height: "150px",
+              width: "120px",
+              height: "120px",
               borderRadius: "50%",
               position: "relative",
             }}
@@ -62,13 +62,13 @@ export default function CardComponent() {
           </div>
         </CardContent>
       </Card>
-      <Card sx={{ width: 280 }}>
+      <Card sx={{ width: 300 ,height:'170px'}}>
         <CardContent sx={{ display: "flex" }}>
           <div
             style={{
               backgroundColor: "rgb(243, 226, 226)",
-              width: "150px",
-              height: "150px",
+              width: "120px",
+              height: "120px",
               borderRadius: "50%",
               position: "relative",
             }}
@@ -114,13 +114,13 @@ export default function CardComponent() {
           </div>
         </CardContent>
       </Card>
-      <Card sx={{ width: 280 }}>
+      <Card sx={{ width: 300,height:'170px'}}>
         <CardContent sx={{ display: "flex" }}>
           <div
             style={{
               backgroundColor: "rgb(202, 239, 230)",
-              width: "150px",
-              height: "150px",
+              width: "120px",
+              height: "120px",
               borderRadius: "50%",
               position: "relative",
             }}
@@ -166,13 +166,13 @@ export default function CardComponent() {
           </div>
         </CardContent>
       </Card>
-      <Card sx={{ width: 280 }}>
+      <Card sx={{ width: 300  ,height:'170px'}}>
         <CardContent sx={{ display: "flex" }}>
           <div
             style={{
               backgroundColor: "rgb(226, 175, 175)",
-              width: "150px",
-              height: "150px",
+              width: "120px",
+              height: "120px",
               borderRadius: "50%",
               position: "relative",
             }}
