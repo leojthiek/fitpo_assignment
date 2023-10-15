@@ -62,7 +62,7 @@ export default function CardComponent() {
           </div>
         </CardContent>
       </Card>
-      <Card sx={{ width: 350 }}>
+      <Card sx={{ width: 310 }}>
         <CardContent sx={{ display: "flex" }}>
           <div
             style={{
@@ -114,7 +114,7 @@ export default function CardComponent() {
           </div>
         </CardContent>
       </Card>
-      <Card sx={{ width: 350 }}>
+      <Card sx={{ width: 310 }}>
         <CardContent sx={{ display: "flex" }}>
           <div
             style={{
@@ -166,7 +166,7 @@ export default function CardComponent() {
           </div>
         </CardContent>
       </Card>
-      <Card sx={{ width: 350 }}>
+      <Card sx={{ width: 310 }}>
         <CardContent sx={{ display: "flex" }}>
           <div
             style={{
