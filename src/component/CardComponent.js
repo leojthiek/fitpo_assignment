@@ -10,7 +10,7 @@ import ShoppingBagOutlinedIcon from '@mui/icons-material/ShoppingBagOutlined';
 export default function CardComponent() {
   return (
     <div style={{display:'flex',gap:'70px',flexWrap:'wrap',justifyContent:'center'}}>
-      <Card sx={{ width: 350 }}>
+      <Card sx={{ width: 310 }}>
         <CardContent sx={{ display: "flex" }}>
           <div
             style={{
