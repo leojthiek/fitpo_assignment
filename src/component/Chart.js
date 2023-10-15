@@ -91,7 +91,7 @@ export default function Chart() {
     >
       <Grid
         item
-        lg={8}
+        lg={6}
         md={12}
         sx={{width:'100%',...shadowStyle }}
       >
