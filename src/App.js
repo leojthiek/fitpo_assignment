@@ -54,10 +54,10 @@ function App() {
         </div>
       </Drawer>
       <Grid container>
-        <FirstGrid item md={2}>
+        <FirstGrid item lg={2}>
           <LeftContainer/>
         </FirstGrid>
-        <SecondGrid item md={10} className='rightContainer'>
+        <SecondGrid item lg={10} md={12} className='rightContainer'>
           <RightContainer />
         </SecondGrid>
       </Grid>

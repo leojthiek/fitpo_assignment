@@ -91,9 +91,8 @@ export default function Chart() {
     >
       <Grid
         item
-        md={8}
-        sm={12}
-        xs={12}
+        lg={8}
+        md={12}
         sx={{width:'100%',...shadowStyle }}
       >
         <div style={{ display: "flex", justifyContent: "space-between" }}>
@@ -137,8 +136,9 @@ export default function Chart() {
       </Grid>
       <Grid
         item
-        md={3}
-        sm={12}       
+        lg={3}
+        md={12}
+
         sx={{ width: "100%", height: "100%",...shadowStyle }}
       >
         <Typography sx={{ fontSize: "19px", fontWeight: "700",paddingTop:'20px' }}>Customers</Typography>
