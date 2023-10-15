@@ -1,4 +1,4 @@
-import { Card, CardContent, Grid, Typography } from "@mui/material"
+import { Card, CardContent, Typography } from "@mui/material"
 import React from "react"
 import PaidOutlinedIcon from "@mui/icons-material/PaidOutlined"
 import ArrowUpwardOutlinedIcon from "@mui/icons-material/ArrowUpwardOutlined"
